@@ -8,9 +8,19 @@ export default function Home() {
         DeepTalk je mesto za one koji žele smislen kontakt, ne beskonačno swipe-ovanje.
       
       </p>
-      <button className="px-6 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-gray-200 transition">
-        Pridruži se besplatno
-      </button>
+      <a
+  href="/signup"
+  className="px-6 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-gray-200 transition"
+>
+  Pridruži se besplatno
+</a>
+
+<a
+  href="/login"
+  className="mt-4 inline-block px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 transition"
+>
+  Već imaš nalog? Prijavi se
+</a>
 
 
 <section className="w-full py-20 bg-white text-gray-900">
